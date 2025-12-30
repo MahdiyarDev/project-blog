@@ -36,8 +36,9 @@ class Router{
                 return [...$route , 'params' => $params];
             }
         }
+        return null;
     }
-    
+
     protected function matchRoute(string $routeUri,string $requestUri): ?array{
         $routeSegments = explode('/', trim($routeUri,'/'));
         $requestSegments = explode('/', trim($requestUri,'/'));
