@@ -1,0 +1,16 @@
+{
+    "name": "mahdiyar/project-2",
+    "authors": [
+        {
+        "name": "mahdiyar sham",
+        "email": "mahdiyar.sham.0674@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {}
+}
