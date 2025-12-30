@@ -11,6 +11,7 @@
     <nav>
         <a href="/">Home</a>
         <a href="/posts">Posts</a>
+        <a href="/add-posts">Add Posts</a>
     </nav>
     <main>
         <?=$content ?>
