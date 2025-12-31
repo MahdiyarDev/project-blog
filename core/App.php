@@ -1,5 +1,6 @@
 <?php
 namespace Core;
+use Exception;
 
 class App{
     protected static $container = [];
@@ -10,7 +11,7 @@ class App{
 
     public static function get(string $key): mixed{
         if(!array_key_exists($key, static::$container)){
-            throw new \Exception("No $key is bound in the container");
+            throw new Exception("No $key is bound in the container");
         }
 
         return static::$container[$key];
