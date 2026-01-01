@@ -1,6 +1,11 @@
 <?php
 namespace Core;
 
+use Exception;
+use PDO;
+use PDOException;
+use PDOStatement;
+
 class DataBase{
     protected $pdo;
 
@@ -13,7 +18,7 @@ class DataBase{
             $this->pdo = new PDO($dsn , $username , $password , $options);
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
-            throw new Exception("Could not connect to the database: " . $e->getMessage());
+            throw new Exception("Could not connect to the database");
         }
     }
 
