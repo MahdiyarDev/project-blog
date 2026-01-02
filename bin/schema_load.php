@@ -7,8 +7,12 @@ $sql = file_get_contents($schemaFile);
 
 try{
     
-    $parts = explode(separator: ';' , string: $sql);
-    var_dump($parts);die;
+    $parts = array_filter(explode(separator: ';' , string: $sql));
+
+    foreach($parts as $sqlPart){
+        $db->query($sqlPart);
+    }
+    echo "schema loaded succefully \n";
 }catch(Exception $e){
     echo "Error loading schema: " . $e->getMessage() . "\n";
 }
