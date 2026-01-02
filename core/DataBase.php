@@ -18,7 +18,7 @@ class DataBase{
             $this->pdo = new PDO($dsn , $username , $password , $options);
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
-            throw new Exception("Could not connect to the database");
+            throw new Exception("Could not connect to the database:" . $e);
         }
     }
 
@@ -27,7 +27,7 @@ class DataBase{
         $dbname = $config['dbname'];
 
         return match ($driver) {
-            'sqlite' => "sqlite: $dbname",
+            'sqlite' => "sqlite:$dbname",
             default => throw new Exception("Unsupported database driver: $driver") ,
         };
     }
