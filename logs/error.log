@@ -1,1 +1,3 @@
 [2026-01-06 10:06:27] Error: Exception: This should go into the logs in /opt/lampp/htdocs/project-2/bin/schema_load.php on Line 10
+[2026-01-06 10:52:33] Error: Error: Class "App\Controller\Exception" not found in /opt/lampp/htdocs/project-2/app/Controller/HomeController.php on Line 8
+[2026-01-06 10:52:46] Error: Error: Class "App\Controller\Exception" not found in /opt/lampp/htdocs/project-2/app/Controller/HomeController.php on Line 8

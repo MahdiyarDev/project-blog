@@ -10,7 +10,7 @@ class ErrorHandler{
         if(php_sapi_name() === 'cli'){
             static::renderCliError($exception);
         }else{
-            // static::renderErrorPage($exception);
+            static::renderErrorPage($exception);
         }
     }
 
@@ -36,6 +36,30 @@ class ErrorHandler{
         exit(1);
     }
 
+     private static function renderErrorPage(\Throwable $exception): void{
+        $isDebug = App::get('config')['app']['debug'] ?? false ;
+        
+        if($isDebug){
+            $errorMessage = static::FormatErrorMessage(
+                $exception,
+                "[%s] Error: %s: %s in %s on Line %d\n"
+            );
+
+            $trace = $exception->getTraceAsString();
+        }else{
+            $errorMessage = "You have Error. Pleas check the error log for  details" ;
+            $trace = "";
+        }
+
+        http_response_code(500);
+        echo View::render('errors/500',[
+            'errorMessage' => $errorMessage,
+            'trace' => $trace,
+            'isDebug' => $isDebug
+        ], 'layouts/main');
+        exit();
+    }
+
     private static function logError(\Throwable $exception): void{
         $logMessage = static::FormatErrorMessage(
                 $exception,
@@ -45,7 +69,6 @@ class ErrorHandler{
             error_log($logMessage, 3 , __DIR__ . '/../logs/error.log');
     }
 
-    // private static function renderErrorPage(\Throwable $exception): void{}
 
     public static function handleError($level , $message , $file, $line){
         $exception = new \ErrorException($message , 0 , $level , $file , $line);
