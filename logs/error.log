@@ -1,3 +1,53 @@
 [2026-01-06 10:06:27] Error: Exception: This should go into the logs in /opt/lampp/htdocs/project-2/bin/schema_load.php on Line 10
 [2026-01-06 10:52:33] Error: Error: Class "App\Controller\Exception" not found in /opt/lampp/htdocs/project-2/app/Controller/HomeController.php on Line 8
 [2026-01-06 10:52:46] Error: Error: Class "App\Controller\Exception" not found in /opt/lampp/htdocs/project-2/app/Controller/HomeController.php on Line 8
+[2026-01-07 20:01:10] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 8
+[2026-01-07 20:01:20] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 8
+[2026-01-07 20:01:39] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 8
+[2026-01-07 20:02:36] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:02:45] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:03:04] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:03:11] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:03:12] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:06:42] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:06:48] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:07:44] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 10
+[2026-01-07 20:07:46] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 10
+[2026-01-07 20:07:59] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:08:32] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:08:34] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:08:35] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:08:59] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:00] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:01] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:01] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:01] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:01] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:09:02] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:15:33] Error: Error: Class "App\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:16:48] Error: Error: Class "App\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:16:49] Error: Error: Class "App\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:17:57] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:17:59] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:19:46] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:21:31] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 10
+[2026-01-07 20:21:37] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:22:40] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:22:41] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:22:42] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:23:13] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:23:14] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:23:20] Error: Error: Class "App\Models\Models" not found in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 6
+[2026-01-07 20:26:04] Error: Error: Class "App\Controllers\User" not found in /opt/lampp/htdocs/project-2/app/Controllers/HomeController.php on Line 9
+[2026-01-07 20:26:10] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:26:12] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:26:13] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:26:23] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:07] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:09] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:39] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:40] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:44] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:46] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:27:52] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
+[2026-01-07 20:28:30] Error: PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.email in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 37
