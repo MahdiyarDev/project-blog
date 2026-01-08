@@ -7,15 +7,13 @@ abstract class Model{
 
     public static function all(): array{
         $db = App::get('database');
-        $results = $db->query("SELECT * FROM " . static::$table)->fetchAll(PDO::FETCH_ASSOC);
-        return array_map([static::class,'createFromArray'],$results);
+        return $db->fetchAll("SELECT * FROM " . static::$table , static::class);
     }
 
     public static function find(mixed $id): static | null{
         $db = App::get('database');
-        $result = $db->query("SELECT * FROM " . static::$table . " WHERE id = ?" , [$id])->fetch(PDO::FETCH_ASSOC);
+        return $db->fetch("SELECT * FROM " . static::$table . " WHERE id = ?" , [$id] , static::class);
 
-        return $result ? static::createFromArray($result): null;
     }
     public static function create(array $data): static{
         $db = App::get('database');

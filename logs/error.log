@@ -55,3 +55,15 @@
 [2026-01-08 09:53:41] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: commets in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
 [2026-01-08 09:55:12] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: commets in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
 [2026-01-08 09:55:53] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: commets in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:20:58] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:21:08] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:22:45] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:23:22] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:23:23] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:23:25] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:23:54] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:23:55] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:25:08] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:34:54] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 10:47:25] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 15
+[2026-01-08 11:14:24] Error: ErrorException: Creation of dynamic property App\Models\Post::$id is deprecated in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 43
