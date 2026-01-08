@@ -154,3 +154,6 @@
 [2026-01-08 16:28:54] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 13
 [2026-01-08 16:28:57] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 13
 [2026-01-08 17:03:34] Error: ErrorException: Undefined variable $tamplate in /opt/lampp/htdocs/project-2/helpers.php on Line 8
+[2026-01-08 17:25:23] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 17:26:12] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 17:26:35] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60

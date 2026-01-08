@@ -9,8 +9,10 @@ use App\Models\Comment;
 class PostController{
     public function index(){
         $search = $_GET['search'] ?? '';
-        $posts = Post::getRecent(5 , $search);
-
+        $page = $_GET['page'] ?? 1;
+        $limit = 2;
+        $posts = Post::getRecent($limit ,$page , $search);
+        $total = Post::count($search);
 
        if(!$posts){
         Router::notFound();
@@ -20,7 +22,9 @@ class PostController{
         layout: 'layouts/main',
         data: [
           'posts' => $posts,
-          'search' => $search
+          'search' => $search,
+          'currentPage' => $page,
+          'totalPages' => ceil($total / $limit)
         ]
        );
     }
