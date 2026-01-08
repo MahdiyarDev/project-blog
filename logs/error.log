@@ -127,3 +127,30 @@
 [2026-01-08 15:17:50] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
 [2026-01-08 15:17:58] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
 [2026-01-08 15:24:52] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:31:39] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:32:44] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:33:03] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:33:12] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:33:33] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:33:55] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:34:04] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:34:41] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:35:08] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:35:09] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:38:17] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:39:51] Error: TypeError: Core\Router::callAction(): Return value must be of type string, null returned in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 15:39:53] Error: TypeError: Core\Router::callAction(): Return value must be of type string, null returned in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 15:41:16] Error: ParseError: syntax error, unexpected token "public", expecting end of file in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 21
+[2026-01-08 15:41:30] Error: ErrorException: Undefined variable $posts in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 15
+[2026-01-08 15:41:52] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 15
+[2026-01-08 15:42:21] Error: ErrorException: Undefined variable $id in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 11
+[2026-01-08 15:42:38] Error: ArgumentCountError: Too few arguments to function Core\Model::find(), 0 passed in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on line 11 and exactly 1 expected in /opt/lampp/htdocs/project-2/core/Model.php on Line 13
+[2026-01-08 15:43:04] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 14
+[2026-01-08 15:45:56] Error: ArgumentCountError: Too few arguments to function App\Models\Post::getRecent(), 0 passed in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on line 11 and exactly 1 expected in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 18
+[2026-01-08 15:46:43] Error: ArgumentCountError: Too few arguments to function App\Models\Post::getRecent(), 0 passed in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on line 11 and exactly 1 expected in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 18
+[2026-01-08 15:52:50] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 15:54:28] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "ORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 16:28:25] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 13
+[2026-01-08 16:28:54] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 13
+[2026-01-08 16:28:57] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 13
+[2026-01-08 17:03:34] Error: ErrorException: Undefined variable $tamplate in /opt/lampp/htdocs/project-2/helpers.php on Line 8

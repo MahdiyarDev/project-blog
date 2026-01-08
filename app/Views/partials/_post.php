@@ -1,0 +1,10 @@
+
+<?php foreach($posts as $post): ?>
+    <article>
+        <h3>
+           <a href="/post/<?= $post->id ?>"><?= htmlspecialchars($post->title) ?></a>
+        </h3>
+        <p><?= htmlspecialchars(substr($post->content , 0, 100)) ?> ... </p>
+    </article>
+
+<?php endforeach; ?>

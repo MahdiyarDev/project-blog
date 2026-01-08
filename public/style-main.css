@@ -196,6 +196,35 @@ main > *:hover {
     color: black;
 }
 
+.search{
+    width: 10rem;
+    height:2rem;
+    background:none;
+    padding: 0.5rem;
+    border: 2px solid none;
+    border-radius: 1.5rem;
+    transition: 300ms ease-in;
+}
+.search:focus{
+    border: 2px solid rgb(47, 42, 49);
+}
+
+.search:hover{
+    border: 2px solid #807bbd;
+}
+.search-btn{
+    width: 5rem;
+    height: 2rem;
+    background-color: #cac8df;
+    border-radius: 1.5rem;
+    transition: 300ms;
+}
+
+.search-btn:hover{
+    background-color: #807bbd ;
+    border: 2px solid #807bbd ;
+}
+
 /* اسکرول بار سفارشی */
 ::-webkit-scrollbar {
     width: 10px;

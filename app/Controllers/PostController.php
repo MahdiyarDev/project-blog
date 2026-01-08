@@ -8,8 +8,23 @@ use App\Models\Comment;
 
 class PostController{
     public function index(){
-        return "All post";
+        $search = $_GET['search'] ?? '';
+        $posts = Post::getRecent(5 , $search);
+
+
+       if(!$posts){
+        Router::notFound();
+       }
+       return View::render(
+        template: 'post/index',
+        layout: 'layouts/main',
+        data: [
+          'posts' => $posts,
+          'search' => $search
+        ]
+       );
     }
+    
 
     public function show($id){
        $post = Post::find($id);

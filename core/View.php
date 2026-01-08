@@ -10,7 +10,11 @@ class View{
         return static::renderLayout($layout , $data, $content);
     }
 
-    protected static function renderTemplate(string $template , array $data):string{
+    public static function partial(string $template , array $data = []): string{
+        return static::renderTemplate("/partials/$template" , $data);
+    }
+
+    protected static function renderTemplate(string $template , array $data): string{
         extract($data);
         $path = dirname(__DIR__) . "/app/Views/$template.php";
 
