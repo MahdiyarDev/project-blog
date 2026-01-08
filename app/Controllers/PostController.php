@@ -1,11 +1,14 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controllers;
+use Core\View;
 use Core\Router;
+use App\Models\Post;
+use App\Models\Comment;
 
 class PostController{
     public function index(){
-        return "All posts";
+        return "All post";
     }
 
     public function show($id){
@@ -18,7 +21,7 @@ class PostController{
        $comments = Comment::forPost($id);
        Post::incrementViews($id);
        return View::render(
-        template: 'posts/show',
+        template: 'post/show',
         layout: 'layouts/main',
         data: ['post' => $post , 'comments' => $comments]
        );

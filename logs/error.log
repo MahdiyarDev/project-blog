@@ -83,3 +83,47 @@
 [2026-01-08 14:10:00] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
 [2026-01-08 14:12:07] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
 [2026-01-08 14:12:35] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:24:17] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 66
+[2026-01-08 14:26:58] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 66
+[2026-01-08 14:26:59] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 66
+[2026-01-08 14:27:10] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:28:49] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:29:38] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:30:26] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:30:27] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:30:33] Error: Error: Class "App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:33:03] Error: Error: Call to undefined method App\Controllers\PostController::index() in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:33:07] Error: Error: Call to undefined method App\Controllers\PostController::index() in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:33:59] Error: Error: Call to undefined method App\Controllers\PostController::index() in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:34:26] Error: Error: Call to undefined method App\Controllers\PostController::index() in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-01-08 14:53:33] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 14:53:41] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 14:53:44] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 14:58:08] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 15:05:40] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 12
+[2026-01-08 15:06:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "WHERE": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-08 15:07:09] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:07:10] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:07:16] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:07:20] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:07:31] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:09:05] Error: Error: Class "Model\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:09:06] Error: Error: Class "Model\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:09:22] Error: Error: Class "Models\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:09:23] Error: Error: Class "Models\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 13
+[2026-01-08 15:09:39] Error: Error: Class "App\Controllers\Comment" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 19
+[2026-01-08 15:09:39] Error: Error: Class "App\Controllers\Comment" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 19
+[2026-01-08 15:09:57] Error: Error: Class "App\Controllers\View" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 22
+[2026-01-08 15:11:21] Error: Error: Class "App\Controllers\Post" not found in /opt/lampp/htdocs/project-2/app/Controllers/PostController.php on Line 16
+[2026-01-08 15:12:17] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:12:42] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:14:52] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:14:59] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:14:59] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:15:50] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:16:05] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:16:23] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:16:24] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:17:50] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:17:58] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/core/Model.php on Line 15
+[2026-01-08 15:24:52] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 15

@@ -184,6 +184,18 @@ main > *:hover {
     transform: translateY(-2px);
 }
 
+.div-comment{
+    margin-bottom: 1rem;
+}
+.p-comment{
+    color: black;
+}
+
+.article-blog{
+    border: 2px solid black;
+    color: black;
+}
+
 /* اسکرول بار سفارشی */
 ::-webkit-scrollbar {
     width: 10px;

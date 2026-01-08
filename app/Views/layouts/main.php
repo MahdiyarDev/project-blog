@@ -10,7 +10,7 @@
     <h1>my blog</h1>
     <nav>
         <a href="/">Home</a>
-        <a href="/posts">Posts</a>
+        <a href="/post/show.php">Post</a>
         <a href="/add-posts">Add Posts</a>
     </nav>
     <main>
