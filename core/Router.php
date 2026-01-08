@@ -1,6 +1,7 @@
 <?php
 namespace Core;
 
+
 class Router{
     protected array $routes = [];
     
@@ -12,9 +13,9 @@ class Router{
         ];
     }
 
-    public function notFound(): void{
+    public static function notFound(): void{
         http_response_code(404);
-        echo "404 not found";
+        echo View::render('errors/404');
         exit;
     }
     
@@ -22,7 +23,7 @@ class Router{
         $route = $this->findRoute($uri , $method);
 
         if(!$route){
-            return $this->notFound();
+            return static::notFound();
         }
 
         [$controller , $action] = explode('@' , $route['controller']);

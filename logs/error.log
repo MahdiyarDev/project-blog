@@ -67,3 +67,19 @@
 [2026-01-08 10:34:54] Error: PDOException: SQLSTATE[HY000]: General error: 1 near "FROMpostsORDER": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
 [2026-01-08 10:47:25] Error: ErrorException: Array to string conversion in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 15
 [2026-01-08 11:14:24] Error: ErrorException: Creation of dynamic property App\Models\Post::$id is deprecated in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 43
+[2026-01-08 13:57:43] Error: Error: Class "Core\Views" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 17
+[2026-01-08 13:58:06] Error: Error: Class "Core\Views" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 17
+[2026-01-08 13:58:30] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 13:59:31] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:00:51] Error: Error: Class "Core\Views" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 17
+[2026-01-08 14:01:16] Error: Error: Class "Core\Views" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 18
+[2026-01-08 14:01:18] Error: Error: Class "Core\Views" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 18
+[2026-01-08 14:01:57] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 19
+[2026-01-08 14:01:58] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 19
+[2026-01-08 14:02:05] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:03:58] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:03:59] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:04:04] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:10:00] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:12:07] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18
+[2026-01-08 14:12:35] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/errors/404.php.php in /opt/lampp/htdocs/project-2/core/View.php on Line 18

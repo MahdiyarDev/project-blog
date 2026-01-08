@@ -11,7 +11,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #58595a;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -22,19 +22,19 @@ h1 {
     text-align: center;
     margin: 2rem 0 1rem;
     font-size: 3rem;
-    color: #2c3e50;
+    color: #232a31;
     font-weight: 700;
     letter-spacing: -1px;
 }
 
 h1::after {
-    content: "✨";
+    /* content: "✨"; */
     margin-left: 10px;
 }
 
 /* نوار ناوبری */
 nav {
-    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+    background: linear-gradient(135deg, #7d7c85 0%, #5e5c72 100%);
     padding: 1rem;
     border-radius: 12px;
     margin: 1rem auto 2rem;
@@ -54,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.788);
+    background-color: rgba(236, 225, 225, 0.788);
     transform: translateY(-2px);
 }
 
@@ -64,7 +64,7 @@ nav a:first-child {
 
 /* بخش اصلی محتوا */
 main {
-    background-color: white;
+    background-color: rgb(122, 118, 118);
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
@@ -93,6 +93,16 @@ footer p {
 article{
     margin-bottom: 1rem;
     margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    transition: 300ms ease-in;
+}
+
+article:hover{
+    background-color: #666;
+    color: #e9ecef;
+    box-shadow: 10px 10px 10px rgb(73, 70, 70);
 }
 
 /* انیمیشن‌های ظریف */
@@ -156,12 +166,12 @@ body {
 
 /* استایل‌های اضافی برای لینک‌ها و عناصر تعاملی */
 a {
-    color: #6c5ce7;
+    color: #cac8df;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #a29bfe;
+    color: #484849;
 }
 
 /* افکت‌های hover برای کارت‌های محتوا */
@@ -170,6 +180,7 @@ main > * {
 }
 
 main > *:hover {
+    color: #e9ecef;
     transform: translateY(-2px);
 }
 
