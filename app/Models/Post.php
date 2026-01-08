@@ -57,7 +57,7 @@ class Post extends Model{
         }
 
 
-        return (int) $db->fetchAll($query,$params)->fetchColumn();
+        return (int) $db->query($query,$params)->fetchColumn();
     }
 
     public static function incrementViews($id): void{

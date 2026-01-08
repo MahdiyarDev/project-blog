@@ -157,3 +157,22 @@
 [2026-01-08 17:25:23] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
 [2026-01-08 17:26:12] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
 [2026-01-08 17:26:35] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 18:52:43] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 18:55:27] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 18:59:19] Error: TypeError: App\Models\Post::count(): Return value must be of type int, none returned in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 61
+[2026-01-08 18:59:20] Error: TypeError: App\Models\Post::count(): Return value must be of type int, none returned in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 61
+[2026-01-08 19:00:51] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:02:27] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:08:22] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:08:23] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:08:40] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:28:08] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:32:05] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:33:23] Error: Error: Call to a member function fetchColumn() on array in /opt/lampp/htdocs/project-2/app/Models/Post.php on Line 60
+[2026-01-08 19:36:30] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 10
+[2026-01-08 19:37:20] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 16
+[2026-01-08 19:38:21] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
+[2026-01-08 19:38:24] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
+[2026-01-08 19:38:53] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
+[2026-01-08 19:38:54] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
+[2026-01-08 19:38:55] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6

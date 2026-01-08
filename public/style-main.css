@@ -32,6 +32,16 @@ h1::after {
     margin-left: 10px;
 }
 
+.a-link{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.a-link:hover{
+    
+    /* background-color: rgba(236, 225, 225, 0.788); */
+    transform: translateY(-2px);
+}
+
 /* نوار ناوبری */
 nav {
     background: linear-gradient(135deg, #7d7c85 0%, #5e5c72 100%);
@@ -224,6 +234,7 @@ main > *:hover {
     background-color: #807bbd ;
     border: 2px solid #807bbd ;
 }
+
 
 /* اسکرول بار سفارشی */
 ::-webkit-scrollbar {

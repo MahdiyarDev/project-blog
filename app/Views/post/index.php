@@ -7,3 +7,4 @@
 </form>
 
 <?= partial('_post' , ['posts' => $posts]) ?>
+<?= partial('_pagination' , ['currentPage' => $currentPage , 'totalPages' => $totalPages]) ?>
