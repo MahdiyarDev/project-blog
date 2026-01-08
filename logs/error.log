@@ -176,3 +176,8 @@
 [2026-01-08 19:38:53] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
 [2026-01-08 19:38:54] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
 [2026-01-08 19:38:55] Error: ErrorException: Undefined variable $page in /opt/lampp/htdocs/project-2/app/Views/partials/_pagination.php on Line 6
+[2026-01-08 21:52:02] Error: Error: Class "App\Controllers\Auth" not found in /opt/lampp/htdocs/project-2/app/Controllers/AuthController.php on Line 17
+[2026-01-08 21:53:25] Error: ErrorException: Undefined variable $eamil in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 19
+[2026-01-08 21:53:51] Error: TypeError: App\Models\User::findByEmail(): Return value must be of type ?App\Models\User, false returned in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 20
+[2026-01-08 21:57:51] Error: ErrorException: Undefined variable $ser in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 8
+[2026-01-08 21:58:21] Error: ErrorException: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 9
