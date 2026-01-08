@@ -3,7 +3,7 @@
 namespace App\Models;
 use Core\Model;
 
-class Comment extends Models{
-    protected static $table = 'commets';
+class Comment extends Model{
+    protected static $table = 'comments';
     
 }
