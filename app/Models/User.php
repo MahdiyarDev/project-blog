@@ -5,7 +5,7 @@ use Core\Model;
 use Core\App;
 
 class User extends Model{
-    protected static $table = 'users';
+    protected static string $table = 'users';
     
     public $id;
     public $name;

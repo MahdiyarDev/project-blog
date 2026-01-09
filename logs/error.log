@@ -239,3 +239,73 @@
 [2026-01-08 23:24:28] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
 [2026-01-08 23:24:29] Error: ErrorException: Attempt to read property "email" on string in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
 [2026-01-08 23:24:29] Error: ErrorException: Attempt to read property "email" on string in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 02:02:45] Error: ErrorException: Attempt to read property "name" on null in /opt/lampp/htdocs/project-2/app/Views/home/index.php on Line 1
+[2026-01-09 02:03:39] Error: ErrorException: Attempt to read property "name" on null in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 1
+[2026-01-09 02:47:05] Error: ErrorException: Attempt to read property "name" on null in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 1
+[2026-01-09 04:03:08] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 04:03:46] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 04:07:59] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:07:59] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:09:30] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:09:30] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:10:35] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:10:35] Error: ErrorException: Undefined variable $users in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:10:37] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:10:37] Error: ErrorException: Undefined variable $users in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:11:17] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:11:17] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:15:48] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:15:48] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:04] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:04] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:38] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:38] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:40] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:40] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:41] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:41] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:41] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:41] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:42] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:42] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:43] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:43] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:43] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:43] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:43] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:43] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:44] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:44] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:44] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:44] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:44] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:44] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:16:45] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:16:45] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:17:37] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:17:37] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:17:59] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:17:59] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:18:04] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:18:04] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:18:16] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:18:16] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:18:18] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:18:18] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:18:25] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:18:25] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:21:46] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 04:22:04] Error: ErrorException: Undefined property: Core\DataBase::$PDO in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 04:24:47] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:24:47] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:24:48] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:24:48] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:25:13] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:25:13] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:25:14] Error: Error: Class "App\Services\RememberMe" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 27
+[2026-01-09 04:25:14] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-09 04:56:08] Error: TypeError: Core\DataBase::query(): Argument #1 ($pdo) must be of type PDO, string given, called in /opt/lampp/htdocs/project-2/bin/schema_load.php on line 13 in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 35
+[2026-01-09 05:04:06] Error: PDOException: SQLSTATE[HY000]: General error: 1 no such table: remember_tokens in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 05:04:12] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 05:05:59] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36
+[2026-01-09 05:06:41] Error: PDOException: SQLSTATE[HY000]: General error: 1 near ")": syntax error in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 36

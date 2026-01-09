@@ -1,16 +1,18 @@
 <?php
 namespace Core;
 use PDO;
+use Core\App;
 
 abstract class Model{
-    protected static $table;
+    protected static string $table;
+    public $id;
 
     public static function all(): array{
         $db = App::get('database');
         return $db->fetchAll("SELECT * FROM " . static::$table , static::class);
     }
 
-    public static function find(mixed $id): static | null{
+    public static function find(mixed $id): ?static{
         $db = App::get('database');
         return $db->fetch("SELECT * FROM " . static::$table . " WHERE id = ?" , [$id] , static::class);
 
@@ -34,5 +36,33 @@ abstract class Model{
             }
         }
         return $model;
+    }
+
+    public function save(){
+        $db = App::get('database');
+        $data = get_object_vars($this);
+
+        if(!isset($this->id)){
+            unset($data['id']);
+            return static::create($data);
+        }
+
+        unset($data['id']);
+        $setParts = array_map(fn($columns) => "$columns = ?", array_keys($data));
+        $sql = " UPDATE " . static::$table . " SET " . \implode(', ' , $setParts) . " WHERE id = ?";
+        $params = array_values($data);
+        $params[] = $this->id;
+        $db = query($sql , $params);
+        return $this;
+    }
+
+    public function delete(): void{
+        
+        if(!isset($this->id)){
+            return;
+        }
+        $db = App::get('database');
+        $sql = "DELETE FROM " . static::$table . " WHERE id = ?";
+        $db->query($sql , [$this->id]);
     }
 }

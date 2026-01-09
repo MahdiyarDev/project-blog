@@ -14,8 +14,10 @@ class AuthController{
     public function store(){
        $email = $_POST['email'];
        $password = $_POST['password'];
+       $remember = isset($_POST['remember']) ? (bool)$_POST['remember'] : false;
 
-       if(Auth::attemp($email , $password)){
+
+       if(Auth::attemp($email , $password , $remember)){
         return Router::redirect('/');
        }
 
