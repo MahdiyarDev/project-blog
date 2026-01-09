@@ -181,3 +181,61 @@
 [2026-01-08 21:53:51] Error: TypeError: App\Models\User::findByEmail(): Return value must be of type ?App\Models\User, false returned in /opt/lampp/htdocs/project-2/app/Models/User.php on Line 20
 [2026-01-08 21:57:51] Error: ErrorException: Undefined variable $ser in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 8
 [2026-01-08 21:58:21] Error: ErrorException: session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 9
+[2026-01-08 22:05:58] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/public/index.php on Line 14
+[2026-01-08 22:06:32] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/public/index.php on Line 14
+[2026-01-08 22:54:12] Error: ErrorException: Undefined variable $globals in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 22:54:12] Error: Error: Only arrays and Traversables can be unpacked, null given in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 22:54:12] Error: ErrorException: Undefined variable $globals in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 22:54:43] Error: ErrorException: Undefined variable $globals in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 22:54:43] Error: Error: Only arrays and Traversables can be unpacked, null given in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 22:54:43] Error: ErrorException: Undefined variable $globals in /opt/lampp/htdocs/project-2/core/View.php on Line 14
+[2026-01-08 23:08:10] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:09:38] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 19
+[2026-01-08 23:10:13] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:10:13] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:10:15] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:10:15] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:11:34] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:11:34] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:11:37] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:11:37] Error: ErrorException: Undefined variable $userId in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:11:38] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:11:38] Error: ErrorException: Undefined variable $userId in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:11:59] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:11:59] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:12:26] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:27] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:31] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:32] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:33] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:33] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:33] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 20
+[2026-01-08 23:12:34] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 19
+[2026-01-08 23:12:34] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:12:34] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 19
+[2026-01-08 23:12:34] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:12:34] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 19
+[2026-01-08 23:12:34] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:12:34] Error: Error: Class "App\Services\App" not found in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 19
+[2026-01-08 23:12:34] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 14
+[2026-01-08 23:14:22] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 18
+[2026-01-08 23:18:36] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 22
+[2026-01-08 23:18:36] Error: ErrorException: Undefined array key "user_id" in /opt/lampp/htdocs/project-2/app/Services/Auth.php on Line 22
+[2026-01-08 23:21:24] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:21:54] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:21:58] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:16] Error: ParseError: syntax error, unexpected token ";" in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 17
+[2026-01-08 23:23:32] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:42] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:43] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:44] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:44] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:23:44] Error: ErrorException: Attempt to read property "email" on null in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:24:15] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:16] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:17] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:26] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:27] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:28] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/public/index.php on Line 15
+[2026-01-08 23:24:29] Error: ErrorException: Attempt to read property "email" on string in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-01-08 23:24:29] Error: ErrorException: Attempt to read property "email" on string in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15

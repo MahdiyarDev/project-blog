@@ -1,4 +1,4 @@
-<h1>Welcome to my blog</h1>
+<h1>Welcome to my blog | <?= $user->name ?> </h1>
 <h2>All Posts</h2>
 
 <form action="" method="GET">

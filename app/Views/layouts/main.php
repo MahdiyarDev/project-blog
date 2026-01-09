@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my blog</title>
-    <link rel="stylesheet" href="/style-main.css" />
+    <link rel="stylesheet" href="/style/style-form.css" />
+    <link rel="stylesheet" href="/style/style-main.css" />
 </head>
 <body>
     <h1>my blog</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/../post">Post</a>
+        <?php if($user): ?>
+            <form action="/logout" method="POST">
+                <button>Logout (<?= $user->email ?>)</button>
+            </form>
+            <?php else: ?>
+                <a href="/login">Login</a>
+        <?php endif; ?>
     </nav>
     <main>
         <section>
