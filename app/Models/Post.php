@@ -24,7 +24,8 @@ class Post extends Model{
 
         if($search !== null){
             $query .= " WHERE title LIKE ? OR content LIKE ?";
-            $params = ["%$search%" , "%$search%"];
+            $params[] = "%$search%";
+            $params[] = "%$search%";
         }
 
         $query .= " ORDER BY created_at DESC";
@@ -53,7 +54,8 @@ class Post extends Model{
 
         if($search !== null){
             $query .= " WHERE title LIKE ? OR content LIKE ?";
-            $params = ["%$search%" , "%$search%"];
+            $params[] = "%$search%";
+            $params[] = "%$search%";
         }
 
 

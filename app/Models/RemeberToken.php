@@ -25,7 +25,7 @@ class RemeberToken extends Model {
     public static function findVlid(string $token): ?static{
         $db = App::get('database');
         $currentTime = date('Y:m:d H:i:s');
-        $sql = "SELECT * FROM " . static::$table . " WHERE token = ? AND expires_at > ?LIMIT 1";;
+        $sql = "SELECT * FROM " . static::$table . " WHERE token = ? AND expires_at > ? LIMIT 1";
         $result = $db->fetch($sql, [$token, $currentTime] , static::class);
         return $result ? $result : null;
     }
