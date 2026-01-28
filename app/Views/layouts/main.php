@@ -12,11 +12,11 @@
     <nav>
         <a href="/">Home</a>
         <a href="/../post">Post</a>
-        <?php if($user): ?>
+       <?php if($user): ?>
             <form action="/logout" method="POST">
                 <button>Logout (<?= $user->email ?>)</button>
             </form>
-            <?php else: ?>
+        <?php else: ?>
                 <a href="/login">Login</a>
         <?php endif; ?>
     </nav>

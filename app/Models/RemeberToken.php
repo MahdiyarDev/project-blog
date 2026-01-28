@@ -22,10 +22,10 @@ class RemeberToken extends Model {
         return $this->save();
     }
     
-    public static function findVAlid(string $token): ?static{
+    public static function findVlid(string $token): ?static{
         $db = App::get('database');
-        $currentTime = date('Y:m:d H:m:s');
-        $sql = "SELECT * FROM " . static::$table . " WHERE token = ? and expires_at > ? LIMIT 1";
+        $currentTime = date('Y:m:d H:i:s');
+        $sql = "SELECT * FROM " . static::$table . " WHERE token = ? AND expires_at > ?LIMIT 1";;
         $result = $db->fetch($sql, [$token, $currentTime] , static::class);
         return $result ? $result : null;
     }

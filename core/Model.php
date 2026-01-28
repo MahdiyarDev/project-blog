@@ -15,7 +15,6 @@ abstract class Model{
     public static function find(mixed $id): ?static{
         $db = App::get('database');
         return $db->fetch("SELECT * FROM " . static::$table . " WHERE id = ?" , [$id] , static::class);
-
     }
     public static function create(array $data): static{
         $db = App::get('database');
@@ -65,4 +64,4 @@ abstract class Model{
         $sql = "DELETE FROM " . static::$table . " WHERE id = ?";
         $db->query($sql , [$this->id]);
     }
-}
+} 

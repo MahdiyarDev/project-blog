@@ -9,6 +9,14 @@
 <section>
     <h2>Comments</h2>
 
+    <?php if($user): ?>
+
+    <?php else: ?>
+    
+    <p><a href="/login">Login for comment</a></p>
+    
+    <?php endif; ?>
+
     <?php foreach($comments as $comment): ?>
         <div class="div-comment">
             <p class="p-comment">

@@ -2,6 +2,7 @@
 namespace App\Services;
 use App\Services\RememberMe;
 use App\Models\User;
+
 class Auth{
 
     protected static $user = null;
