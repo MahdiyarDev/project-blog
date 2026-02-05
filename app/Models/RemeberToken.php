@@ -1,14 +1,13 @@
 <?php
 namespace App\Models;
 use App\Service\RememberMe;
-use Core\DataBase;
 use Core\Model;
 use Core\App;
 
 
 class RemeberToken extends Model {
     protected static string $table = 'remember_tokens';
-    public const TOKEN_LIFETIME = 30 * 24 * 30 * 30;
+    public const TOKEN_LIFETIME = 30 * 24 * 60 * 60;
 
     public  $id;
     public int $user_id;
@@ -24,7 +23,7 @@ class RemeberToken extends Model {
     
     public static function findVlid(string $token): ?static{
         $db = App::get('database');
-        $currentTime = date('Y:m:d H:i:s');
+        $currentTime = date('Y-m-d H:i:s');
         $sql = "SELECT * FROM " . static::$table . " WHERE token = ? AND expires_at > ? LIMIT 1";
         $result = $db->fetch($sql, [$token, $currentTime] , static::class);
         return $result ? $result : null;

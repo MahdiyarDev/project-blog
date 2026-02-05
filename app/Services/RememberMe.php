@@ -1,6 +1,7 @@
 <?php
 namespace App\Services;
 use App\Models\RememberToken;
+use App\Models\User;
 use Core\App;
 use Core\Model;
 
@@ -24,6 +25,28 @@ class RememberMe{
         $token = RememberToken::findValid($tokenString);
         
         if(!$token){
+            return null;
+        }
+
+        $user = User::find($token->user_id);
+
+        if($user){
+            static::rotateToken($token);
+        }
+
+        return $user;
+    }
+
+    public static function validToken(): ?User{
+        $tokenString = $_COOKIE[static::COOKIE_NAME] ?? null;
+
+        if(!$tokenString){
+            return null;
+        }
+
+        $token = RememberToken::findVlid($tokenString);
+
+        if(!$token) {
             return null;
         }
 

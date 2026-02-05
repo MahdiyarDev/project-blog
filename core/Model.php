@@ -37,7 +37,7 @@ abstract class Model{
         return $model;
     }
 
-    public function save(){
+    public function save(): static{
         $db = App::get('database');
         $data = get_object_vars($this);
 
@@ -48,7 +48,7 @@ abstract class Model{
 
         unset($data['id']);
         $setParts = array_map(fn($columns) => "$columns = ?", array_keys($data));
-        $sql = " UPDATE " . static::$table . " SET " . \implode(', ' , $setParts) . " WHERE id = ?";
+        $sql = "UPDATE " . static::$table . " SET " . implode(', ' , $setParts) . " WHERE id = ?";
         $params = array_values($data);
         $params[] = $this->id;
         $db = query($sql , $params);
