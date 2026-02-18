@@ -19,7 +19,7 @@ class View{
     }
 
     public static function partial(string $template , array $data = []): string{
-        return static::renderTemplate("/partials/$template" , $data);
+        return static::renderTemplate("partials/$template" , $data);
     }
 
     protected static function renderTemplate(string $template , array $data): string{
