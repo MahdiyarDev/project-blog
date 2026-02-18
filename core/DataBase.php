@@ -43,11 +43,19 @@ class DataBase{
         return $classname ? $stmt->fetchAll(PDO::FETCH_CLASS , $classname) : $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function fetch(string $sql, array $params = [] , ?string $classname = null): mixed{
-        $stmt = $this->query($sql,$params);
-        $stmt->setFetchMode($classname ? PDO::FETCH_CLASS : PDO::FETCH_ASSOC , $classname);
-        return $stmt->fetch();
+    // در core/DataBase.php
+    public function fetch(string $query, array $params = [], ?string $class = null)
+{
+    $stmt = $this->query($query, $params);
+    
+    if ($class) {
+        $result = $stmt->fetchObject($class);
+        return $result === false ? null : $result;
     }
+    
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $result === false ? null : $result;
+}
 
     public function lastInsertId(): string|false{
         return $this->pdo->lastInsertId();

@@ -9,13 +9,20 @@ abstract class Model{
 
     public static function all(): array{
         $db = App::get('database');
-        return $db->fetchAll("SELECT * FROM " . static::$table , static::class);
+        return $db->fetchAll("SELECT * FROM " . static::$table , [] , static::class);
     }
 
-    public static function find(mixed $id): ?static{
-        $db = App::get('database');
-        return $db->fetch("SELECT * FROM " . static::$table . " WHERE id = ?" , [$id] , static::class);
-    }
+    public static function find(mixed $id): ?static
+{
+    $db = App::get('database');
+    $result = $db->fetch(
+        "SELECT * FROM " . static::$table . " WHERE id = ?", 
+        [$id], 
+        static::class
+    );
+    
+    return $result; // حالا fetch خودش null برمی‌گردونه اگر چیزی پیدا نکنه
+}
     public static function create(array $data): static{
         $db = App::get('database');
         $columns = implode(', ' , array_keys($data));
@@ -51,7 +58,7 @@ abstract class Model{
         $sql = "UPDATE " . static::$table . " SET " . implode(', ' , $setParts) . " WHERE id = ?";
         $params = array_values($data);
         $params[] = $this->id;
-        $db = query($sql , $params);
+        $db->query($sql , $params);
         return $this;
     }
 

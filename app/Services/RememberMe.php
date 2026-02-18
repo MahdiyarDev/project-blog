@@ -10,7 +10,7 @@ class RememberMe{
     public const COOKIE_NAME = 'remember_token';
 
     public static function createToken(int $userId): RememberToken{
-        $token = RememberToken::createForUesr($userId);
+        $token = RememberToken::createForUser($userId);
         static::setcookie($token->token);
         return $token;
     }
@@ -37,27 +37,27 @@ class RememberMe{
         return $user;
     }
 
-    public static function validToken(): ?User{
-        $tokenString = $_COOKIE[static::COOKIE_NAME] ?? null;
+    // public static function validToken(): ?User{
+    //     $tokenString = $_COOKIE[static::COOKIE_NAME] ?? null;
 
-        if(!$tokenString){
-            return null;
-        }
+    //     if(!$tokenString){
+    //         return null;
+    //     }
 
-        $token = RememberToken::findVlid($tokenString);
+    //     $token = RememberToken::findValid($tokenString);
 
-        if(!$token) {
-            return null;
-        }
+    //     if(!$token) {
+    //         return null;
+    //     }
 
-        $user = User::find($token->user_id);
+    //     $user = User::find($token->user_id);
 
-        if($user){
-            static::rotateToken($token);
-        }
+    //     if($user){
+    //         static::rotateToken($token);
+    //     }
 
-        return $user;
-    }
+    //     return $user;
+    // }
 
     public static function clearToken(): void{
         $tokenString = $_COOKIE[static::COOKIE_NAME] ?? null;

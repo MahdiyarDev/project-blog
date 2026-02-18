@@ -15,35 +15,30 @@ class Post extends Model{
     public $created_at;
 
     
-    public static function getRecent(?int $limit = null ,?int $page = null, ?string $search = null){
-        /** @var \Core\DataBase $db */
-        $db = App::get('database');
+    public static function getRecent(?int $limit = null, ?int $page = null, ?string $search = null)
+{
+    $db = App::get('database');
 
-        $query = " SELECT * FROM " . static::$table;
-        $params = [];
+    $query = "SELECT * FROM " . static::$table;
+    $params = [];
 
-        if($search !== null){
-            $query .= " WHERE title LIKE ? OR content LIKE ?";
-            $params[] = "%$search%";
-            $params[] = "%$search%";
-        }
-
-        $query .= " ORDER BY created_at DESC";
-
-        if($limit !== null){
-            $query .= " LIMIT ?";
-            $params[] = $limit;
-        }
-
-        if($page !== null && $limit !== null){
-            $offset = ($page - 1) * $limit;
-            $query .= " OFFSET ?";
-            $params[] = $offset;
-        }
-
-
-        return $db->fetchAll($query,$params,static::class);
+    if ($search !== null && trim($search) !== '') {
+        $query .= " WHERE title LIKE ? OR content LIKE ?";
+        $params[] = "%$search%";
+        $params[] = "%$search%";
     }
+
+    $query .= " ORDER BY created_at DESC";
+
+    if ($limit !== null && $page !== null) {
+        $limit  = (int) $limit;
+        $offset = (int) (($page - 1) * $limit);
+        $query .= " LIMIT $limit OFFSET $offset";
+    }
+
+    return $db->fetchAll($query, $params, static::class);
+}
+
 
     public static function count(?string $search = null): int{
         /** @var \Core\DataBase $db */
@@ -52,7 +47,7 @@ class Post extends Model{
         $query = " SELECT COUNT(*) FROM " . static::$table;
         $params = [];
 
-        if($search !== null){
+        if($search !== null && trim($search) !== ''){
             $query .= " WHERE title LIKE ? OR content LIKE ?";
             $params[] = "%$search%";
             $params[] = "%$search%";

@@ -1,6 +1,7 @@
 <?php
 
 namespace Core;
+use Core\View;
 
 class ErrorHandler{
     public static function handleException(\Throwable $exception){

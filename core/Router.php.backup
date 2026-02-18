@@ -61,12 +61,13 @@ class Router{
     }
 
     protected function callAction(string $controller,string $action,array $params): string{
-        // Add namespace if not already present
-        // if (!str_contains($controller, '\\')) {
-        //     $controller = "App\\Controllers\\" . $controller;
-        // }
+        $controllerClass = "App\\Controllers\\$controller";
+
+        if (!str_contains($controller, '\\')) {
+            $controller = "App\\Controllers\\" . $controller;
+        }
         
-        return (new $controller)->$action(... $params);
+        return (new $controllerClass)->$action(... $params);
     }
 
     public static function redirect(string $uri): void{

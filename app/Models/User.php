@@ -16,7 +16,7 @@ class User extends Model{
 
     public static  function findByEmail(string $email): ?User{
         $db = App::get('database');
-        $result = $db->fetch('SELECT * FROM users WHERE email = ?' , [$email] , static::class);
+        $result = $db->fetch("SELECT * FROM users WHERE email = ?" , [$email] , static::class);
         return $result ? $result : null;
     }
 }

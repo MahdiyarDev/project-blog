@@ -1,3 +1,4 @@
+
 <article class="article-blog">
     <h1 class="title-blog"><?= htmlspecialchars($post->title); ?></h1>
     <p class="view-blog">Views: <?= $post->views ?></p>

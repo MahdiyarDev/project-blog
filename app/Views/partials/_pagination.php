@@ -1,6 +1,6 @@
 <?php
 $queryParams = $_GET;
-unset($queryParams['pages']);
+unset($queryParams['page']);
 
 function buildQueryString(array $params , $page): string{
     $params['page'] = $page;

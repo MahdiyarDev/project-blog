@@ -1,13 +1,13 @@
 <?php
-/**
- * @var Core\Router $router
- */
 
-$router->add('GET' , '/' , 'HomeController@index');
-$router->add('GET' , '/post' , 'PostController@index');
-$router->add('GET' , '/post/{id}' , 'PostController@show');
+use App\Controllers\HomeController;
+use App\Controllers\PostController;
+use App\Controllers\AuthController;
 
+$router->add('GET' , '/' , HomeController::class . '@index');
+$router->add('GET' , '/post' , PostController::class . '@index');
+$router->add('GET' , '/post/{id}' , PostController::class . '@show');
 
-$router->add('GET' , '/login' , 'AuthController@create');
-$router->add('POST' , '/login' , 'AuthController@store');
-$router->add('POST' , '/logout' , 'AuthController@destroy');
+$router->add('GET' , '/login' , AuthController::class . '@create');
+$router->add('POST' , '/login' , AuthController::class . '@store');
+$router->add('POST' , '/logout' , AuthController::class . '@destroy');

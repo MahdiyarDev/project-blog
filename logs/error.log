@@ -430,3 +430,35 @@
 [2026-01-28 15:01:37] Error: ErrorException: Undefined variable $limit in /opt/lampp/htdocs/project-2/test.php on Line 15
 [2026-01-28 15:01:37] Error: ErrorException: Undefined variable $limit in /opt/lampp/htdocs/project-2/test.php on Line 15
 [2026-01-28 15:01:37] Error: ErrorException: Undefined variable $limit in /opt/lampp/htdocs/project-2/test.php on Line 15
+[2026-02-05 11:03:04] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 17
+[2026-02-05 11:03:14] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 17
+[2026-02-05 11:15:56] Error: ErrorException: Undefined variable $id in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 2
+[2026-02-05 11:17:57] Error: ErrorException: Undefined variable $id in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 2
+[2026-02-05 11:17:58] Error: ErrorException: Undefined variable $id in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 2
+[2026-02-05 11:17:58] Error: ErrorException: Undefined variable $id in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 2
+[2026-02-05 11:18:14] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 10
+[2026-02-05 11:18:18] Error: ErrorException: Undefined variable $post in /opt/lampp/htdocs/project-2/app/Views/post/index.php on Line 10
+[2026-02-05 11:19:45] Error: TypeError: Core\Model::find(): Return value must be of type ?App\Models\Post, false returned in /opt/lampp/htdocs/project-2/core/Model.php on Line 17
+[2026-02-05 13:38:17] Error: TypeError: Core\DataBase::fetchAll(): Argument #2 ($params) must be of type array, string given, called in /opt/lampp/htdocs/project-2/core/Model.php on line 12 in /opt/lampp/htdocs/project-2/core/DataBase.php on Line 41
+[2026-02-05 13:39:44] Error: Error: Call to protected method Core\Router::findRoute() from global scope in /opt/lampp/htdocs/project-2/testing.php on Line 48
+[2026-02-05 13:40:04] Error: Error: Call to protected method Core\Router::findRoute() from global scope in /opt/lampp/htdocs/project-2/testing.php on Line 48
+[2026-02-05 13:40:56] Error: ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /opt/lampp/htdocs/project-2/testing.php:8) in /opt/lampp/htdocs/project-2/core/Router.php on Line 16
+[2026-02-05 18:38:11] Error: ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /opt/lampp/htdocs/project-2/testing.php:8) in /opt/lampp/htdocs/project-2/core/Router.php on Line 16
+[2026-02-15 16:00:25] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:00:26] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:02:06] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:02:07] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:02:08] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:02:09] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:02:13] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 65
+[2026-02-15 16:04:11] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 68
+[2026-02-15 16:04:12] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 68
+[2026-02-15 16:04:57] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-15 16:07:59] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:27:13] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:27:17] Error: Error: Class "App\Controllers\App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:30:37] Error: Error: Class "App\Controllers\App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:30:38] Error: Error: Class "App\Controllers\App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:30:40] Error: Error: Class "App\Controllers\App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:30:41] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-16 07:30:42] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70

@@ -7,7 +7,7 @@ use App\Models\Post;
 class HomeController{
     public function index(){
 
-        $posts = Post::getRecent(5);
+        $posts = Post::getRecent(5,1,'');
 
         return View::render(
         template: 'home/index',
