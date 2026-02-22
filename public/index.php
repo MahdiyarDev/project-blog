@@ -7,7 +7,7 @@ use Core\View;
 require_once __DIR__ . '/../bootstrap.php';
 require_once __DIR__ . '/../helpers.php';
 
-session_start();
+// session_start();
 
 $router = new Router();
 

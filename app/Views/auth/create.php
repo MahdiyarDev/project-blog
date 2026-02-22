@@ -5,6 +5,7 @@
 <?php endif; ?>
 
 <form action="/login" method="POST" class="form-login">
+    <?= csrf_token() ?> 
     <input type="email" name="email" id="email" require placeholder="Email">
     <input type="password" name="password" id="password" require placeholder="Password">
     <label for="remember">

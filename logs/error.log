@@ -462,3 +462,40 @@
 [2026-02-16 07:30:40] Error: Error: Class "App\Controllers\App\Controllers\PostController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
 [2026-02-16 07:30:41] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
 [2026-02-16 07:30:42] Error: Error: Class "App\Controllers\App\Controllers\HomeController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-22 15:42:19] Error: ParseError: syntax error, unexpected token "<<", expecting ";" in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 15:42:19] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-02-22 15:43:47] Error: ParseError: syntax error, unexpected token "<<", expecting ";" in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 15:43:47] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-02-22 15:43:50] Error: ParseError: syntax error, unexpected token "<<", expecting ";" in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 15:43:50] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-02-22 16:46:47] Error: Error: Class "Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 14
+[2026-02-22 16:46:47] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-02-22 16:55:44] Error: Error: Class "Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 14
+[2026-02-22 16:55:44] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Views/layouts/main.php on Line 15
+[2026-02-22 17:09:50] Error: Error: Class "Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 14
+[2026-02-22 17:10:44] Error: Error: Class "App\Sevices\Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:10:45] Error: Error: Class "App\Sevices\Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:10:45] Error: Error: Class "App\Sevices\Csrf" not found in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:11:10] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:11:10] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:11:19] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:13:59] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:13:59] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:14:00] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:14:00] Error: Error: Cannot access private constant App\Services\Csrf::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:15:11] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:15:11] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:15:12] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:24:17] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:24:18] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:24:19] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:25:30] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:25:31] Error: Error: Cannot access private constant App\Services\CSRF::TOKEN_FIELD_NAME in /opt/lampp/htdocs/project-2/helpers.php on Line 15
+[2026-02-22 17:26:27] Error: ErrorException: session_start(): Ignoring session_start() because a session is already active (started from /opt/lampp/htdocs/project-2/bootstrap.php on line 18) in /opt/lampp/htdocs/project-2/public/index.php on Line 10
+[2026-02-22 17:26:28] Error: ErrorException: session_start(): Ignoring session_start() because a session is already active (started from /opt/lampp/htdocs/project-2/bootstrap.php on line 18) in /opt/lampp/htdocs/project-2/public/index.php on Line 10
+[2026-02-22 17:27:14] Error: ErrorException: Undefined variable $name in /opt/lampp/htdocs/project-2/helpers.php on Line 20
+[2026-02-22 17:37:19] Error: ErrorException: Undefined variable $name in /opt/lampp/htdocs/project-2/helpers.php on Line 20
+[2026-02-22 17:37:43] Error: ErrorException: Undefined variable $name in /opt/lampp/htdocs/project-2/helpers.php on Line 20
+[2026-02-22 17:43:26] Error: Error: Class "App\Controllers\CSRF" not found in /opt/lampp/htdocs/project-2/app/Controllers/AuthController.php on Line 18
+[2026-02-22 17:44:13] Error: ErrorException: Undefined array key "csrf_token" in /opt/lampp/htdocs/project-2/app/Services/CSRF.php on Line 28
+[2026-02-22 17:44:14] Error: ErrorException: Undefined array key "csrf_token" in /opt/lampp/htdocs/project-2/app/Services/CSRF.php on Line 28
