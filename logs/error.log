@@ -499,3 +499,12 @@
 [2026-02-22 17:43:26] Error: Error: Class "App\Controllers\CSRF" not found in /opt/lampp/htdocs/project-2/app/Controllers/AuthController.php on Line 18
 [2026-02-22 17:44:13] Error: ErrorException: Undefined array key "csrf_token" in /opt/lampp/htdocs/project-2/app/Services/CSRF.php on Line 28
 [2026-02-22 17:44:14] Error: ErrorException: Undefined array key "csrf_token" in /opt/lampp/htdocs/project-2/app/Services/CSRF.php on Line 28
+[2026-02-23 06:16:19] Error: ErrorException: Undefined array key 1 in /opt/lampp/htdocs/project-2/core/Router.php on Line 40
+[2026-02-23 06:26:01] Error: Error: Class "CommentController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 81
+[2026-02-23 06:26:24] Error: Error: Class "App\Controllers\CommentController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 81
+[2026-02-23 06:26:54] Error: Error: Class "App\Controllers\CommentController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 81
+[2026-02-23 06:28:45] Error: Error: Class "App\Controllers\CommentController" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 81
+[2026-02-23 06:29:31] Error: Error: Unknown named parameter $id in /opt/lampp/htdocs/project-2/core/Router.php on Line 81
+[2026-02-23 06:32:26] Error: Error: Call to undefined method App\Models\Comment::creat() in /opt/lampp/htdocs/project-2/app/Controllers/CommentController.php on Line 18
+[2026-02-23 06:33:16] Error: ErrorException: Undefined variable $user in /opt/lampp/htdocs/project-2/app/Controllers/CommentController.php on Line 20
+[2026-02-23 06:33:54] Error: ErrorException: Undefined variable $user_id in /opt/lampp/htdocs/project-2/app/Controllers/CommentController.php on Line 20

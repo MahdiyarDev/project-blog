@@ -8,10 +8,14 @@
 </article>
 
 <section>
-    <h2>Comments</h2>
+    <h2 id="comments">Comments</h2>
 
     <?php if($user): ?>
-
+        <form action="/post/<?= $post->id ?>/comment" method="POST" >
+        <?= csrf_token() ?>
+        <textarea name="content" rows="3" style="resize: none;"></textarea>
+        <button type="submit">Send</button>
+        </form>
     <?php else: ?>
     
     <p><a href="/login">Login for comment</a></p>
