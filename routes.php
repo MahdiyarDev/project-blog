@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @var Core\Router $router 
+ */
+
+use App\Middlewares\View;
+
+$router->addGlobalMiddleware(View::class);
+
 use App\Controllers\HomeController;
 use App\Controllers\PostController;
 use App\Controllers\AuthController;

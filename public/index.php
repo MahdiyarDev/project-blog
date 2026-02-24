@@ -12,7 +12,6 @@ require_once __DIR__ . '/../helpers.php';
 $router = new Router();
 
 require_once __DIR__ . '/../routes.php';
-View::share('user' , Auth::user());
 
 // var_dump($_SESSION['user_id']);die;
 

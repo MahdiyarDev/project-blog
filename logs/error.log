@@ -518,3 +518,55 @@
 [2026-02-23 07:11:26] Error: ErrorException: Undefined array key "middleware" in /opt/lampp/htdocs/project-2/core/Router.php on Line 55
 [2026-02-23 07:11:26] Error: ErrorException: Undefined array key "middleware" in /opt/lampp/htdocs/project-2/core/Router.php on Line 55
 [2026-02-23 07:17:40] Error: ErrorException: Undefined variable $middlewares in /opt/lampp/htdocs/project-2/core/Router.php on Line 70
+[2026-02-24 06:27:57] Error: ErrorException: Undefined variable $naxt in /opt/lampp/htdocs/project-2/core/Router.php on Line 71
+[2026-02-24 06:28:26] Error: Error: Call to undefined function <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my blog</title>
+    <link rel="stylesheet" href="/style/style-form.css" />
+    <link rel="stylesheet" href="/style/style-main.css" />
+</head>
+<body>
+    <h1>my blog</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/../post">Post</a>
+                       <a href="/login">Login</a>
+            </nav>
+    <main>
+        <section>
+            <p><h1>Welcome to my blog</h1>
+<h2>Recent Post</h2>
+
+
+    <article>
+        <h3>
+           <a href="/post/1">Welcome to my blog</a>
+        </h3>
+        <p>this is my firt blog and first blog this Web! ... </p>
+    </article>
+
+    <article>
+        <h3>
+           <a href="/post/2">PHP blog and tricks</a>
+        </h3>
+        <p>this blog very usefull for someone lear php ... </p>
+    </article>
+
+    <article>
+        <h3>
+           <a href="/post/3">Web Developer</a>
+        </h3>
+        <p>this blog can usefull for some one web developer ! ... </p>
+    </article>
+
+</p>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2026 my blog </p>
+    </footer>
+</body>
+</html>() in /opt/lampp/htdocs/project-2/core/Router.php on Line 74
