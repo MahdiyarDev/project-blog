@@ -14,11 +14,12 @@ class CommentController{
         Router::unauthorized();
     }
 
+
     $content = $_POST['content'];
-        $user = Auth::user(); 
+
     Comment::create([
         'post_id' => $id,
-        'user_id' => $user->id,
+        'user_id' => Auth::user()->id,
         'content' => $content
     ]);
 

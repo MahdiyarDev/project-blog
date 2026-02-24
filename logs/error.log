@@ -570,3 +570,6 @@
     </footer>
 </body>
 </html>() in /opt/lampp/htdocs/project-2/core/Router.php on Line 74
+[2026-02-24 06:49:42] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
+[2026-02-24 06:51:20] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
+[2026-02-24 06:53:53] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
