@@ -10,9 +10,7 @@ use App\Models\Comment;
 class CommentController{
 
     public function store($id){
-    if(!CSRF::verify()){
-        Router::unauthorized();
-    }
+   
 
 
     $content = $_POST['content'];

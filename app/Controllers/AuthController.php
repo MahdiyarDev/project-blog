@@ -15,10 +15,6 @@ class AuthController{
     }
 
     public function store(){
-        
-        if(!CSRF::verify()){
-            Router::pageExpired();
-        }
 
        $email = $_POST['email'];
        $password = $_POST['password'];
