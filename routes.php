@@ -16,6 +16,7 @@ use App\Controllers\HomeController;
 use App\Controllers\PostController;
 use App\Controllers\AuthController;
 use App\Controllers\CommentController;
+use App\Controllers\Admin\DashboardController;
 
 $router->add('GET' , '/' , HomeController::class . '@index');
 $router->add('GET' , '/post' , PostController::class . '@index');
@@ -25,3 +26,8 @@ $router->add('POST' , '/post/{id}/comment' , CommentController::class . '@store'
 $router->add('GET' , '/login' , AuthController::class . '@create');
 $router->add('POST' , '/login' , AuthController::class . '@store');
 $router->add('POST' , '/logout' , AuthController::class . '@destroy');
+
+
+//---------------- Admin Panel Routes
+
+$router->add('GET' , '/admin/dashboard' , DashboardController::class . '@index' , ['auth']);
