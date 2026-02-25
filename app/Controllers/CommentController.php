@@ -6,12 +6,13 @@ use App\Services\CSRF;
 use App\Services\Auth;
 use Core\Router;
 use App\Models\Comment;
+use App\Services\Authorization;
 
 class CommentController{
 
     public function store($id){
    
-
+    Authorization::verify('comment');
 
     $content = $_POST['content'];
 

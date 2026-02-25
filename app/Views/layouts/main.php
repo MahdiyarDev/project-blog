@@ -13,8 +13,10 @@
         <a href="/">Home</a>
         <a href="/../post">Post</a>
        <?php if($user): ?>
-        <a href="/admin/dashboard">Admin</a>
-            <form action="/logout" method="POST">
+            <?php if(check('dashboard')): ?>
+                <a href="/admin/dashboard">Admin</a>
+            <?php endif; ?>
+        <form action="/logout" method="POST">
                 <?= csrf_token() ?>
                 <button>Logout (<?= $user->email ?>)</button>
             </form>
