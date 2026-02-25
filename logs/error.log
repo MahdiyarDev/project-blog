@@ -573,3 +573,8 @@
 [2026-02-24 06:49:42] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
 [2026-02-24 06:51:20] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
 [2026-02-24 06:53:53] Error: Error: Class "auth" not found in /opt/lampp/htdocs/project-2/core/Router.php on Line 73
+[2026-02-25 16:25:46] Error: ParseError: syntax error, unexpected token ";" in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 6
+[2026-02-25 16:28:25] Error: ErrorException: Undefined variable $recentPosts in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 12
+[2026-02-25 16:30:16] Error: ErrorException: Undefined variable $recentPosts in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 12
+[2026-02-25 16:30:17] Error: ErrorException: Undefined variable $recentPosts in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 12
+[2026-02-25 16:34:22] Error: ErrorException: Undefined property: App\Models\Comment::$title in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 28

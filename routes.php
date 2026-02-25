@@ -28,6 +28,6 @@ $router->add('POST' , '/login' , AuthController::class . '@store');
 $router->add('POST' , '/logout' , AuthController::class . '@destroy');
 
 
-//---------------- Admin Panel Routes
+//---------------- Admin Panel Routes ----------------
 
 $router->add('GET' , '/admin/dashboard' , DashboardController::class . '@index' , ['auth']);

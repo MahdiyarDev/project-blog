@@ -254,3 +254,9 @@ main > *:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #6c5ce7;
 }
+
+
+.section-admin{
+    position: relative;
+    top: 1rem;
+}
