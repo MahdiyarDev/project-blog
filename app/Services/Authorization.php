@@ -25,11 +25,19 @@ class Authorization{
             return true;
         }
 
+        // return match($action){
+        //     'dashboard' => in_array($user->role , ['admin' , 'superAdmin']),
+        //     'edit_post', 'delete_post' => $resource instanceof Post && (($user->id === $resource->user_id) || in_array($user->role , ['admin' , 'superAdmin'])),
+        //     'comment' , 'create_post' => true,
+        //     default => false
+        // };
         return match($action){
-            'dashboard' => in_array($user->role , ['admin' , 'superAdmin']),
-            'edit_post', 'delete_post' => $resource instanceof Post && (($user->id === $resource->user_id) || in_array($user->role , ['admin' , 'superAdmin'])),
-            'comment' , 'create_post' => true,
-            default => false
-        };
+          'dashboard' => in_array($user->role, ['admin', 'superAdmin']),
+          'edit_post' => $resource instanceof Post && (($user->id === $resource->user_id) || in_array($user->role, ['admin', 'superAdmin'])),
+          'delete_post' => $resource instanceof Post && (($user->id === $resource->user_id) || in_array($user->role, ['admin', 'superAdmin'])),
+          'comment' => true,
+          'create_post' => true,
+          default => false
+};
     }
 }

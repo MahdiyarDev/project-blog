@@ -3,13 +3,19 @@
 namespace App\Controllers\Admin;
 
 use App\Models\Post;
+
 use App\Services\Auth;
 use App\Services\Authorization;
+use Core\Model;
 use Core\Router;
 use Core\View;
 
 class PostController{
+    
+
     public function index(){
+        Authorization::verify('dashboard');
+        
         return View::render(
             'admin/post/index',
             ['posts' => Post::all()],
@@ -18,6 +24,8 @@ class PostController{
     }
 
     public function create(){
+        Authorization::verify('create_post');
+
          return View::render(
            template: 'admin/post/create',
             layout: 'layouts/admin'
@@ -37,16 +45,20 @@ class PostController{
     }
 
     public function edit($id){
+        $post = Post::find($id);
+        Authorization::verify('edit_post' , $post);
         return View::render(
             'admin/post/edit',
-            ['post' => Post::find($id)],
+            ['post' => $post ],
             'layouts/admin'
         );
     }
 
     public function update($id){
         $post = Post::find($id);
-        Authorization::verify('edit_post', $post);
+        Authorization::verify('edit_post' , $post);
+
+
         $post->title = $_POST['title'];
         $post->content = $_POST['content'];
         $post->save();
@@ -54,8 +66,10 @@ class PostController{
         Router::redirect('/admin/posts');
     }
 
-    public function delete($id){
+    public function delete($id){        
     $post = Post::find($id);
+    Authorization::verify('delete_post' , $post);
+
     $post->delete();
     Router::redirect('/admin/posts');
     }

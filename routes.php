@@ -36,7 +36,8 @@ $router->add('GET' , '/admin/dashboard' , DashboardController::class . '@index' 
 $router->add('GET' , '/admin/posts' , AdminPostController::class . '@index' , ['auth']);
 $router->add('GET' , '/admin/posts/create' , AdminPostController::class . '@create' , ['auth']);
 $router->add('POST' , '/admin/posts' , AdminPostController::class . '@store' , ['auth']);
-$router->add('GET' , '/admin/posts{id}/edit' , AdminPostController::class . '@edit' , ['auth']);
+// $router->add('GET' , '/admin/posts/{id}/edit' , AdminPostController::class . '@edit' , ['auth']);
+$router->add('GET', '/admin/posts/{id}/edit', AdminPostController::class . '@edit', ['auth']);
 $router->add('POST' , '/admin/posts/{id}' , AdminPostController::class . '@update' , ['auth']);
 $router->add('POST' , '/admin/posts/{id}/delete' , AdminPostController::class . '@delete' , ['auth']);
 
