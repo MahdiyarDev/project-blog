@@ -16,6 +16,7 @@ use App\Controllers\HomeController;
 use App\Controllers\PostController;
 use App\Controllers\AuthController;
 use App\Controllers\CommentController;
+use App\Controllers\Admin\PostController as AdminPostController;
 use App\Controllers\Admin\DashboardController;
 
 $router->add('GET' , '/' , HomeController::class . '@index');
@@ -31,3 +32,11 @@ $router->add('POST' , '/logout' , AuthController::class . '@destroy');
 //---------------- Admin Panel Routes ----------------
 
 $router->add('GET' , '/admin/dashboard' , DashboardController::class . '@index' , ['auth']);
+
+$router->add('GET' , '/admin/posts' , AdminPostController::class . '@index' , ['auth']);
+$router->add('GET' , '/admin/posts/create' , AdminPostController::class . '@create' , ['auth']);
+$router->add('POST' , '/admin/posts' , AdminPostController::class . '@store' , ['auth']);
+$router->add('GET' , '/admin/posts{id}/edit' , AdminPostController::class . '@edit' , ['auth']);
+$router->add('POST' , '/admin/posts/{id}' , AdminPostController::class . '@update' , ['auth']);
+$router->add('POST' , '/admin/posts/{id}/delete' , AdminPostController::class . '@delete' , ['auth']);
+

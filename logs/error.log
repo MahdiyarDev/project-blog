@@ -578,3 +578,20 @@
 [2026-02-25 16:30:16] Error: ErrorException: Undefined variable $recentPosts in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 12
 [2026-02-25 16:30:17] Error: ErrorException: Undefined variable $recentPosts in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 12
 [2026-02-25 16:34:22] Error: ErrorException: Undefined property: App\Models\Comment::$title in /opt/lampp/htdocs/project-2/app/Views/admin/dashboard/index.php on Line 28
+[2026-02-26 08:48:28] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/admin/post/create.php in /opt/lampp/htdocs/project-2/core/View.php on Line 30
+[2026-02-26 08:48:38] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/admin/post/create.php in /opt/lampp/htdocs/project-2/core/View.php on Line 30
+[2026-02-26 08:50:47] Error: RuntimeException: Error: template not found /opt/lampp/htdocs/project-2/app/Views/admin/post/create.php in /opt/lampp/htdocs/project-2/core/View.php on Line 30
+[2026-02-26 08:53:38] Error: ErrorException: Undefined property: App\Models\Post::$Created in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:53:48] Error: ErrorException: Undefined property: App\Models\Post::$Created_at in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:53:49] Error: ErrorException: Undefined property: App\Models\Post::$Created_at in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:54:32] Error: ErrorException: Undefined property: App\Models\Post::$crea in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:54:33] Error: ErrorException: Undefined property: App\Models\Post::$crea in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:54:34] Error: ErrorException: Undefined property: App\Models\Post::$crea in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 18
+[2026-02-26 08:55:26] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:27] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:27] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:30] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:35] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:35] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:35] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
+[2026-02-26 08:55:36] Error: ErrorException: Undefined property: App\Models\Post::$action in /opt/lampp/htdocs/project-2/app/Views/admin/post/index.php on Line 19
